@@ -1,0 +1,29 @@
+body{
+    background-color: rgba(240,240,240);
+    padding: lem;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,280px);
+    grid-template-rows: lfr;
+    grid-gap: lem;
+}
+.producto{
+    max-width: 280px;
+    display: flex;
+    flex-flow: column;
+    border-radius: 6px;
+    box-shadow: 0 0 0.1em rgba(0,0,0,0.2);
+    background-color: rgba(255,255,255);
+    cursor: pointer;
+    transition-property: box-shadow;
+    transition-duration: 0.3s;
+}
+
+.producto:hover{
+    box-shadow: 0 0 1.5em rgba(0,0,0,0.2);
+}
+
+.producto > img{
+    width: 100%;
+    object-fit: cover;
+}
